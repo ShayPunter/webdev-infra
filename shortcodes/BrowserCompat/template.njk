@@ -9,6 +9,7 @@
     </span>
     <span class="wdi-browser-compat__version" data-compat="{{ browser.supportInfo.compatProperty }}">
       {{- browser.supportIcon -}}
+       <span class="visually-hidden">{{ browser.supportInfo.aria }}</span>
     </span>
     </li>
     {%- endfor %}
